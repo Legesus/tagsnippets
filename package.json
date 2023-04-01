@@ -1,0 +1,21 @@
+{
+  "name": "tagsnippets",
+  "displayName": "Tagging Snippets",
+  "description": "A collection of snippets for tagging files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "xml",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
